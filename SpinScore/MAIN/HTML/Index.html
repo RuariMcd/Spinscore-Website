@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Spinscore - Home</title>
+		<link rel="stylesheet" href="../CSS/Webstyle.css" />
+		<link rel="icon" type="image/x-icon" href="../IMAGES/favicon.ico" />
+	</head>
+	
+	<body>
+		<header>
+			<div class="logo-title">
+				<a href="Index.html">
+					<img src="../IMAGES/Logo.png" alt="Logo">
+				</a>
+				<span class="site-title">Spinscore</span>
+			</div>
+			
+			<nav>
+				<a href="Index.html" class="active">About Us</a>
+				<a href="cds.html">CDs</a>
+				<a href="DVDs.html">DVDs</a>
+				<a href="reviews.html">Reviews</a>
+				<a href="Contact.html">Contact us</a>
+				<a href="cart.html">Cart</a>
+			</nav>
+		</header>
+
+		<main>
+			<section id="section1">
+				<h1> About Us </h1>
+				<p>At Spinscore, we believe great music and unforgettable films deserve to be held in your hands — not just streamed and forgotten. Founded by passionate collectors and cinephiles, we offer a carefully curated catalogue spanning thousands of titles across every genre, from timeless rock albums to cult classic DVDs. We source every disc with care, because we don't just sell physical media — we deliver experiences worth owning.</p>
+				<h2>Why Buy From Us?</h2>
+
+				<div class="whyBuyGrid">
+
+					<div class="whyBox">
+						<h3>Competitive prices</h3>
+						<p>Prices that are hard to beat no matter where you look.</p>
+					</div>
+
+					<div class="whyBox">
+						<h3>Fast Dispatch</h3>
+						<p>Orders are packaged securely and shipped quickly and safely to your door.</p>
+					</div>
+
+					<div class="whyBox">
+						<h3>Quality Checked</h3>
+						<p>Every disc is inspected carefully before being sent out.</p>
+					</div>
+
+					<div class="whyBox">
+						<h3>Collectors First</h3>
+						<p>Rare finds, classics and hard-to-get titles chosen by fans.</p>
+					</div>
+
+				</div>
+			</section>
+			<section id="section2">
+					<h1> Top CDs and Movies </h1>
+					<div class="carousel-container">
+						<button onclick="moveSlide(-1)">❮</button>
+
+						<div class="carousel" id="carousel"></div>
+
+						<button onclick="moveSlide(1)">❯</button>
+					</div>
+     		</section>
+			<section id="section3">
+				<h1> Hear from our customers! </h1>
+				<div class="grid-container">
+					<img src="../IMAGES/Reviews/Review 1.png" alt="Customer Review 1">
+  					<img src="../IMAGES/Reviews/Review 2.png" alt="Customer Review 2">
+  					<img src="../IMAGES/Reviews/Review 3.png" alt="Customer Review 3">
+				</div>
+				<div class="ReviewButton">
+					<button class="goReview" onclick="window.location.href = 'reviews.html';">See more reviews</button>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<p>&copy; Copyright Spinscore 2026</p>
+			<button id="contrastBtn">Contrast Mode</button>
+		</footer>
+		<script src="../JS/main.js"></script>
+		<script src="../JS/accessibility.js"></script>
+	</body>
+</html>

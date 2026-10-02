@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spinscore Reviews</title>
+  <link rel="icon" type="image/x-icon" href="../IMAGES/favicon.ico" />
+  <link rel="stylesheet" href="../CSS/Webstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <a href="Index.html">
+                <img src="../IMAGES/Logo.png" alt="Logo">
+            </a>
+            <span class="site-title">Spinscore</span>
+        </div>
+        
+        <nav>
+            <a href="Index.html">About us</a>
+            <a href="cds.html">CDs</a>
+            <a href="DVDs.html">DVDs</a>
+            <a href="reviews.html" class="active">Reviews</a>
+            <a href="Contact.html">Contact us</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+  <div class="reviewContainer">
+    <h1>What Our Customers Say</h1>
+    <p>Real reviews shared by happy customers</p>
+    <div class="reviews">
+      <div class="review-card"><img src="../IMAGES/Reviews/Review 4.png" alt="Review 1"></div>
+      <div class="review-card"><img src="../IMAGES/Reviews/Review 5.png" alt="Review 2"></div>
+      <div class="review-card"><img src="../IMAGES/Reviews/Review 6.png" alt="Review 3"></div>
+      <div class="review-card"><img src="../IMAGES/Reviews/Review 7.png" alt="Review 4"></div>
+      <div class="review-card"><img src="../IMAGES/Reviews/Review 8.png" alt="Review 5"></div>
+      <div class="review-card"><img src="../IMAGES/Reviews/Review 9.png" alt="Review 6"></div>
+      <div class="review-card"><img src="../IMAGES/Reviews/Review 10.png" alt="Review 7"></div>
+      <div class="review-card"><img src="../IMAGES/Reviews/Review 11.png" alt="Review 8"></div>
+    </div>
+  </div>
+
+  <div class="review-form">
+    <h2 class="reviewTitle">Leave Your Review</h2>
+    <form id="reviewForm">
+      <input type="text" placeholder="Your Name" required>
+      <select id="rating" required>
+        <option value="">Select Rating</option>
+        <option value="1">1 Star</option>
+        <option value="2">2 Stars</option>
+        <option value="3">3 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="5">5 Stars</option>
+      </select>
+      <textarea placeholder="Write your review here..." rows="5" required></textarea>
+      <p id="errorMsg"></p>
+      <button type="submit">Submit Review</button>
+    </form>
+  </div>
+
+
+  </div>
+  <footer>
+    <p>&copy; Copyright Spinscore 2026</p>
+    <button id="contrastBtn">Contrast Mode</button>
+  </footer>
+  <script src="../JS/reviews.js"></script>
+  <script src="../JS/accessibility.js"></script>
+</body>
+
+</html>

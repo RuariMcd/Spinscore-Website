@@ -1,0 +1,1260 @@
+/* UNIVERSAL: USED IN ALL WEBPAGES */
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background: black;
+
+    color: white;
+
+}
+
+
+
+header {
+
+    background-color: white;
+
+    color: white;
+
+    padding: 15px 20px;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 1000;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+ 
+
+header img {
+
+    height: 50px;
+
+}
+
+ 
+
+.logo-title {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+ 
+
+.site-title {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    color: orange;
+
+    font-family: Georgia, 'Times New Roman', serif;
+
+}
+
+ 
+
+nav a {
+
+    color: #f46106;
+
+    margin-right: 15px;
+
+    font-weight: bold;
+
+}
+
+ 
+
+nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+ 
+
+h1, .topCD {
+
+    color: white;
+
+    text-align: center;
+
+}
+
+ 
+
+p {
+
+    color: white;
+
+    text-align: justify;
+
+}
+
+ 
+
+main {
+
+    padding: 20px;
+
+}
+
+ 
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    border-top: 1px solid #333;
+
+}
+
+
+
+nav a.active {
+
+    color: blue;
+
+    font-weight: bold;
+
+}
+/* END OF UNIVERSAL */
+
+
+
+/* CAROUSEL USED ON HOME PAGE */
+.carousel-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 10px;
+
+    width: 100%;
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+}
+
+ 
+
+.carousel {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+ 
+
+.carousel img {
+
+    width: 28vw;
+
+    max-width: 400px;
+
+    min-width: 140px;
+
+    height: auto;
+
+    aspect-ratio: 4 / 5.5;
+
+    object-fit: cover;
+
+    opacity: 0;
+
+    animation: fadeSlide 1.25s ease forwards;
+
+    border-radius: 18px;
+
+}
+
+
+
+.carousel-container button {
+
+    background-color: #f46106;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    width: 50px;
+
+    height: 50px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+
+
+.carousel-container button:hover{
+
+    opacity: 0.9;
+
+}
+/* END OF CAROUSEL */
+
+
+
+/* HOME PAGE STYLING */
+section {
+
+    min-height: 300px;
+
+    height: auto;
+
+    border-bottom: solid 1px #2a2a2a;
+
+    padding-bottom: 40px;
+
+}
+
+
+
+.grid-container {
+    
+    align-items: center;
+
+    align-content: center;
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+
+
+.grid-container img {
+
+    height: 375px;
+
+    max-width: 500px;
+
+    border-radius: 32px;
+
+    padding-left: 20px;
+
+    padding-right: 20px;
+
+    align-items: center;
+
+}
+
+
+
+.goReview {
+
+    color: white;
+
+    background-color: #f46106;
+
+    border-radius: 12px;
+
+    height: 75px;
+
+    width: 125px;
+
+    font-size: 22px;
+
+    justify-content: center;
+
+    margin-top: 30px;
+
+    cursor: pointer;
+
+}
+
+
+
+.ReviewButton {
+
+    text-align: center;
+
+}
+
+
+
+.ReviewButton button:hover {
+
+    opacity: 0.9;
+
+}
+
+
+
+#section1 {
+
+    text-align: center;
+
+}
+
+
+
+#section1 h1 {
+
+    font-size: 42px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+#section1 p {
+
+    max-width: 950px;
+
+    margin: 0 auto;
+
+    line-height: 1.7;
+
+    font-size: 18px;
+
+}
+
+
+
+#section1 h2 {
+
+    margin-top: 55px;
+
+    margin-bottom: 30px;
+
+    font-size: 34px;
+
+}
+
+
+
+.whyBuyGrid {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 25px;
+
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    padding: 0 20px;
+
+}
+
+
+
+.whyBox {
+
+    width: 280px;
+
+    background-color: #111;
+
+    border: 1px solid #2a2a2a;
+
+    border-radius: 18px;
+
+    padding: 30px 20px;
+
+    transition: 0.25s ease;
+
+}
+
+
+
+.whyBox:hover {
+
+    transform: translateY(-6px);
+
+    border-color: #f46106;
+
+}
+
+
+
+.whyBox h3 {
+
+    color: #f46106;
+
+    font-size: 24px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.whyBox p {
+
+    font-size: 16px;
+
+    line-height: 1.6;
+
+}
+
+
+
+/*END OF HOME PAGE STYLING*/
+
+
+
+/* ### CD AND DVD STYLING ### */
+
+/* USED TO STYLE THE CD AND DVD PAGE */
+.product-grid {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    padding: 40px 0;
+
+}
+
+ 
+
+.cd-card {
+
+    background: #1a1a1a;
+
+    border: 1px solid #333;
+
+    border-radius: 12px;
+
+    width: 300px;
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    text-align: center;
+
+}
+
+ 
+
+.cd-card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 20px rgba(244, 97, 6, 0.3); 
+
+}
+
+ 
+
+.img-wrapper img {
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+
+}
+
+ 
+
+.cd-info {
+
+    padding: 20px;
+
+}
+
+
+
+.cd-info .title-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.cd-info h3 {
+
+    font-size: 1.1rem;
+
+    margin: 0;
+
+    color: white;
+
+}
+
+
+
+.price {
+
+    font-size: 1.4rem;
+
+    font-weight: bold;
+
+    color: #f46106; 
+
+    margin: 0;
+
+    font-weight: bold;
+
+    color: #f46106; 
+
+    margin-bottom: 5px;
+
+}
+
+ 
+
+.meta {
+
+    font-size: 0.85rem;
+
+    color: #bbb;
+
+    margin: 2px 0;
+
+}
+
+ 
+
+.buy-btn {
+
+    background-color: #f46106;
+
+    color: white;
+
+    border: none;
+
+    padding: 12px 25px;
+
+    border-radius: 5px;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+    width: 100%;
+
+    text-transform: uppercase;
+
+}
+
+
+
+.buy-btn:hover {
+
+    background-color: #ff7b29;
+
+}
+
+
+
+button,
+.buy-btn,
+nav a {
+
+    outline: none;
+
+}
+
+
+
+button:focus,
+.buy-btn:focus,
+nav a:focus {
+
+    outline: none;
+
+    box-shadow: none;
+
+}
+
+
+
+@keyframes fadeSlide {
+
+    to {
+
+        opacity: 1;
+
+        transform: translateX(0);
+
+    }
+
+}
+/* END OF CD + DVD STYLING */
+
+
+
+/* ### CONTACT FORM STYLING ### */
+
+/* FORM WRAPPER: AFFECTS THE CONTACT FORM'S DESIGN */
+.form-wrapper {
+    max-width: 520px;
+
+    margin: 60px auto;
+
+    padding: 40px;
+
+    background: #111;
+
+    border: 1px solid #2a2a2a;
+
+    border-radius: 16px;
+
+    box-sizing: border-box;
+
+}
+
+
+
+.form-eyebrow {
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.1em;
+
+    text-transform: uppercase;
+
+    color: orange;
+
+    margin: 0 0 10px;
+
+}
+
+
+
+h1.form-title {
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+    line-height: 1.2;
+
+    color: white;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+}
+/* END OF FORM WRAPPER */
+
+
+
+/* FORM FIELDS: AFFECTS THE FIELDS */
+.form-fields {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.25rem;
+
+}
+
+
+
+label {
+    display: block;
+
+    font-size: 13px;
+
+    font-weight: 500;
+
+    color: #aaa;
+
+    margin-bottom: 6px;
+
+    letter-spacing: 0.04em;
+
+}
+
+
+
+input[type="text"],
+input[type="email"],
+    textarea {
+
+        width: 100%;
+
+        box-sizing: border-box;
+
+        padding: 10px 14px;
+
+        font-size: 15px;
+
+        border: 1px solid #333;
+
+        border-radius: 8px;
+
+        background: #1a1a1a;
+
+        color: #f0f0f0;
+
+        outline: none;
+
+        transition: border-color 0.15s, box-shadow 0.15s;
+
+        font-family: Arial, sans-serif;
+
+}
+
+
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+
+        color: #555;
+
+}
+ 
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+
+    border-color: orange;
+
+    box-shadow: 0 0 0 3px rgba(255, 165, 0, 0.12);
+
+}
+
+
+
+textarea {
+
+    resize: vertical;
+
+}
+/* END OF FORM FIELDS */
+
+
+
+/* ERROR STYLES FOR THE FORM */
+input.error, textarea.error {
+    border-color: #e05252;
+
+    box-shadow: 0 0 0 3px rgba(224, 82, 82, 0.18);
+
+}
+
+
+
+.field-error {
+
+    display: none;
+
+    margin-top: 5px;
+
+    font-size: 12px;
+
+    color: #e05252;
+
+    font-weight: 500;
+
+}
+
+
+
+.field-error.visible {
+
+    display: block;
+
+}
+/* END OF ERROR STYLES */
+
+
+
+/* FORM FOOTER STYLE */
+.form-footer {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-top: 0.5rem;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+}
+
+
+
+.form-note {
+
+    font-size: 12px;
+
+    color: #555;
+
+    margin: 0;
+
+}
+
+
+
+.submit-btn {
+
+    padding: 0 1.5rem;
+
+    height: 38px;
+
+    background: #f46106;
+
+    color: #fff;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: opacity 0.15s;
+
+    letter-spacing: 0.02em;
+
+}
+
+
+
+.submit-btn:hover {
+
+    opacity: 0.85;
+
+}
+
+
+
+.submit-btn:disabled {
+
+    opacity: 0.4;
+
+    cursor: default;
+
+}
+/* END OF FOOTER STYLE */
+
+
+ 
+/* SUCCESS MESSAGE STYLING */
+.success-msg {
+
+    display: none;
+
+    margin-top: 1.5rem;
+
+    padding: 14px 18px;
+
+    background: rgba(255, 165, 0, 0.1);
+
+    border: 1px solid rgba(255, 165, 0, 0.35);
+
+    border-radius: 8px;
+
+    color: orange;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+}
+/* END OF CONTACT FORM STYLING */
+
+
+
+/* START OF REVIEW FORM STYLING */
+.reviewContainer {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 40px 20px;
+    
+  }
+
+
+
+  .review-form {
+
+    background: #111;
+
+    padding: 30px;
+
+    border-radius: 16px;
+
+    margin: 10px auto;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+
+    max-width: 1200px;
+
+    justify-content: center;
+
+  }
+
+
+
+  .review-form h2 {
+
+    margin-top: 0;
+
+    text-align: center;
+
+  }
+
+
+
+  .review-form form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+  }
+
+
+
+  .review-form input,
+  .review-form textarea,
+  .review-form select {
+
+    padding: 12px;
+
+    border: 1px solid #2a2a2a;
+
+    border-radius: 10px;
+
+    font-size: 16px;
+
+  }
+
+
+
+  .review-form button {
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #f46106;
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+  }
+
+
+
+  p {
+
+    text-align: center;
+
+  }
+
+
+
+  .review-form button:hover {
+
+    opacity: 0.9;
+
+  }
+
+
+
+  .reviews {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: 20px;
+
+    margin-top: 30px;
+
+  }
+
+
+
+  .review-card {
+
+    background: white;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 10px #f46106;
+
+  }
+
+
+
+  .review-card img {
+
+    width: 100%;
+
+    display: block;
+
+  }
+
+  .reviewTitle {
+    color: #f46106
+  }
+
+
+
+  #rating {
+
+    background-color: #1a1a1a;
+
+    color: #555
+
+  }
+
+
+
+  #errorMsg {
+
+    color: orange;
+
+  }
+
+/*END OF REVIEW FORM STYLING*/
+
+
+
+/* CONTRAST TOGGLE BUTTON */
+#contrastBtn {
+
+    background-color: #f46106;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+
+}
+
+
+
+#contrastBtn:hover {
+
+    opacity: 0.9;
+
+}
+
+
+
+/* HIGH CONTRAST MODE */
+body.contrast-mode {
+
+    background: #000;
+
+    color: #fff;
+
+}
+
+
+
+body.contrast-mode header {
+
+    background: #000;
+
+    border-bottom: 2px solid yellow;
+
+}
+
+
+
+body.contrast-mode h1,
+body.contrast-mode h2,
+body.contrast-mode h3,
+body.contrast-mode p,
+body.contrast-mode label,
+body.contrast-mode span {
+
+    color: #fff;
+
+}
+
+
+
+body.contrast-mode nav a {
+
+    color: yellow;
+
+}
+
+
+
+body.contrast-mode nav a.active {
+
+    color: blue;
+
+    font-weight: bold;
+
+}
+
+
+
+body.contrast-mode nav a:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+body.contrast-mode section,
+body.contrast-mode footer {
+
+    border-color: yellow;
+
+}
+
+
+
+body.contrast-mode .whyBox,
+body.contrast-mode .cd-card,
+body.contrast-mode .form-wrapper,
+body.contrast-mode .review-form {
+
+    background: #000;
+
+    border: 2px solid yellow;
+
+}
+
+
+
+body.contrast-mode .buy-btn,
+body.contrast-mode .submit-btn,
+body.contrast-mode .goReview,
+body.contrast-mode button {
+
+    background: yellow;
+
+    color: black;
+
+    font-weight: bold;
+
+}
+
+
+
+body.contrast-mode input,
+body.contrast-mode textarea,
+body.contrast-mode select {
+
+    background: #000;
+
+    color: white;
+
+    border: 2px solid yellow;
+    
+}
+
+
+
+body.contrast-mode .review-card {
+
+    background: white;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 10px yellow;
+
+  }
+
+
+
+  body.contrast-mode #rating,
+  body.contrast-mode  {
+
+    background-color: black;
+
+    color: #555
+
+  }

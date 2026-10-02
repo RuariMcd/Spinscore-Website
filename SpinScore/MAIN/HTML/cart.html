@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinscore - Cart</title>
+
+    <link rel="stylesheet" href="../CSS/Webstyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-title">
+            <a href="Index.html">
+                <img src="../IMAGES/Logo.png" alt="Logo">
+            </a>
+            <span class="site-title">Spinscore</span>
+        </div>
+
+        <nav>
+            <a href="Index.html">About Us</a>
+            <a href="cds.html">CDs</a>
+            <a href="DVDs.html">DVDs</a>
+            <a href="reviews.html">Reviews</a>
+            <a href="Contact.html">Contact</a>
+            <a href="cart.html" class="active">Cart</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Your Cart</h1>
+
+        <div id="cart-items"></div>
+
+        <h2 id="cart-total">Total: £0.00</h2>
+
+        <button onclick="clearCart()" class="buy-btn">Clear Cart</button>
+
+        <section class="form-wrapper">
+    <p class="form-eyebrow">Checkout</p>
+    <h1 class="form-title">Complete your order</h1>
+
+    <div class="form-fields">
+        <div>
+            <label for="customer-name">Full name</label>
+            <input type="text" id="customer-name" placeholder="John Smith">
+            <span class="field-error" id="name-error">Please enter your full name.</span>
+        </div>
+
+        <div>
+            <label for="customer-email">Email address</label>
+            <input type="email" id="customer-email" placeholder="john@email.com">
+            <span class="field-error" id="email-error">Please enter a valid email address.</span>
+        </div>
+
+        <div>
+            <label for="customer-address">Address</label>
+            <textarea id="customer-address" rows="4" placeholder="Enter your address"></textarea>
+            <span class="field-error" id="address-error">Please enter your address.</span>
+        </div>
+
+        <div>
+            <label for="card-number">Card number</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+            <span class="field-error" id="card-error">Please enter your card number.</span>
+        </div>
+
+        <div class="form-footer">
+            <button class="submit-btn" onclick="checkout()">Place Order</button>
+        </div>
+    </div>
+
+    <div class="success-msg" id="checkout-success">
+        Your order has been placed successfully.
+    </div>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; Spinscore 2026</p>
+        <button id="contrastBtn">Contrast Mode</button>
+    </footer>
+
+    <script src="../JS/cart.js"></script>
+    <script src="../JS/accessibility.js"></script>
+</body>
+</html>
